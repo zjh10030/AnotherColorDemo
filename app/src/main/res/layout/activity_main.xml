@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
@@ -17,6 +18,9 @@
         android:id="@+id/color_name_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:inputType="textNoSuggestions"
+        android:hint="Enter Color"
         android:textSize="32sp"/>
 
     <Button
@@ -26,6 +30,16 @@
         android:text="Submit"
         android:textSize="32sp"
         android:onClick="submitColor"
+        />
+
+    <Button
+        android:id="@+id/random_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Random"
+        android:textSize="32sp"
+        android:onClick="randomColor"
+
         />
 
 </LinearLayout>

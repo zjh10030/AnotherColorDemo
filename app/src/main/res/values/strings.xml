@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">AnotherColorDemo</string>
+    <string-array name="colors">
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>blue</item>
+    </string-array>
+
 </resources>
